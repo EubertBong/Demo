@@ -1,0 +1,51 @@
+import { WeeklyUpdate } from "@/lib/types";
+export const weeklyUpdates: WeeklyUpdate[] = [
+  {
+    id: "wu1",
+    clientId: "c1",
+    weekLabel: "Week 16",
+    summary: "Campaign scale held while CAC stayed stable.",
+    performanceNote: "Leads up 9%.",
+    nextActions: "Expand high-intent ad groups.",
+  },
+  {
+    id: "wu2",
+    clientId: "c2",
+    weekLabel: "Week 16",
+    summary: "Home bundle launch underperformed.",
+    performanceNote: "ROAS down 2%.",
+    nextActions: "Replace low-performing creative.",
+  },
+  {
+    id: "wu3",
+    clientId: "c3",
+    weekLabel: "Week 16",
+    summary: "SEO issue impacted lead volume.",
+    performanceNote: "Leads down 11%.",
+    nextActions: "Complete technical SEO fixes.",
+  },
+  {
+    id: "wu4",
+    clientId: "c4",
+    weekLabel: "Week 16",
+    summary: "Demand capture campaigns accelerated.",
+    performanceNote: "MQL growth at 19%.",
+    nextActions: "Increase retargeting budget.",
+  },
+  {
+    id: "wu5",
+    clientId: "c7",
+    weekLabel: "Week 16",
+    summary: "Cart checkout friction identified.",
+    performanceNote: "AOV down 6%.",
+    nextActions: "Deploy checkout UX updates.",
+  },
+  {
+    id: "wu6",
+    clientId: "c8",
+    weekLabel: "Week 16",
+    summary: "Webinar series beat signup benchmark.",
+    performanceNote: "Trials up 14%.",
+    nextActions: "Test offer bundle for trial users.",
+  },
+];
